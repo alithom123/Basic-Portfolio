@@ -1,47 +1,107 @@
-<!-- When you create a website, it's standard practice to code your HTML files before writing any CSS and to write up one HTML file before moving onto the next. Write your HTML semantically, too:
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basic Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
+</head>
 
-If something is a heading, you use a heading tag.
-If something is a list, you use an unordered or ordered list tag.
-So on and so forth.
-The content for the index.html should be unique to you.
 
-Write a paragraph or two about yourself. Make it fun, show your personality!
-The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected.
-Add, commit, and push your code to GitHub often, especially when you complete a page.
-After all of your HTML is written, you can begin styling your pages using the style.css file you created.
+<body>
+    <header>
+        <div class="header-content">
+          <div class="header-name-content">
+            <h1 id="name">Alexander B. Thompson</h1>
+          </div>
+            <div class="header-links-content">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
 
-Be sure to validate your html.
-Consult the specs below these instructions for advice on styling your CSS files.
-Push your changes to Github.
+<div class="main clearfix">
+    <div class="main-content clearfix">
+            <h2>Portfolio</h2>
 
-Additional Specifcations
-Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+            <section>
 
-Teal color (used for headings and backgrounds): #4aaaa5
-Regular font color (used for paragraphs and all text besides the headings): #777777
-Main header background color: #ffffff
-Main header border color: #cccccc
-Footer background color: #666666
-Main content background color: #ffffff
-Main content border color: #dddddd
-Fonts:
+                <div class="portfolio-project">
+                    <img src="assets/images/placeholder-150x150.png"></img>
+                    <p>Project</p>
+                </div>
+                <div class="portfolio-project">
+                    <img src="assets/images/placeholder-150x150.png"></img>
+                    <p>Project</p>
+                </div>
+                <div class="portfolio-project">
+                    <img src="assets/images/placeholder-150x150.png"></img>
+                    <p>Project</p>
+                </div>
+                <div class="portfolio-project">
+                    <img src="assets/images/placeholder-150x150.png"></img>
+                    <p>Project</p>
+                </div>
+                <div class="portfolio-project">
+                    <img src="assets/images/placeholder-150x150.png"></img>
+                    <p>Project</p>
+                </div>
+                <div class="portfolio-project">
+                    <img src="assets/images/placeholder-150x150.png"></img>
+                    <p>Project</p>
+                </div>
 
-For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
-For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
-Profile Image Found on index.html:
+            </section>
+        </div>
+    </div>
 
-Use a picture of yourself.
-If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
-Portfolio Images:
+    <footer>
+        <div class="footer-content">
+            <p id="copyright">Copyright ©</p>
+        </div>
+    </footer>
 
-Placeholder images can be found at LoremPixel.
-Save the images to your images folder.
-Background Images:
 
-The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
-Dimensions:
+</body>
+</html>
 
-The entire content and the main section content area is 960px wide.
-Pro-tip: Use the Page Ruler extension to measure the size of elements. -->
+<!--
+<div class="main-area">
+    <div class="main-content">
+        <h2>Portfolio</h2>
 
-<!doctype html>
+        <section>
+
+            <div class="portfolio-project">
+                <img src="assets/images/placeholder-150x150.png"></img>
+                <p>Project</p>
+            </div>
+            <div class="portfolio-project">
+                <img src="assets/images/placeholder-150x150.png"></img>
+                <p>Project</p>
+            </div>
+            <div class="portfolio-project">
+                <img src="assets/images/placeholder-150x150.png"></img>
+                <p>Project</p>
+            </div>
+            <div class="portfolio-project">
+                <img src="assets/images/placeholder-150x150.png"></img>
+                <p>Project</p>
+            </div>
+            <div class="portfolio-project">
+                <img src="assets/images/placeholder-150x150.png"></img>
+                <p>Project</p>
+            </div>
+            <div class="portfolio-project">
+                <img src="assets/images/placeholder-150x150.png"></img>
+                <p>Project</p>
+            </div>
+
+        </section>
+    </div>
+  </div> -->
